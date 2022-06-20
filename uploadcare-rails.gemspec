@@ -28,7 +28,6 @@ Gem::Specification.new do |gem|
   gem.test_files = Dir['spec/**/*']
   gem.version = Uploadcare::Rails::VERSION
   gem.add_dependency 'rails', '>= 4'
-  gem.add_dependency 'uploadcare-ruby'
 
   gem.add_development_dependency 'rspec', '> 3.4.4'
   gem.add_development_dependency 'rspec-rails'
